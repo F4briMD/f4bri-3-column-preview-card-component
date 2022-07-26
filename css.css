@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 5rem 2em;
+}
+a{
+    text-decoration: none;
+}
+.container{
+max-width: 300px;
+}
+.main-wrapper{
+margin-bottom: 1em;
+}
+.container h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 0.8em;
+}
+.container p{
+color: hsla(0, 0%, 100%, 0.75);
+margin-bottom: 1.5em;
+line-height: 1.7em;
+font-size: 13px;
+font-weight: 400;
+}
+.colum-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5em 3em;
+    border-radius: 0.6em 0.6em 0 0;
+}
+.colum-2{
+background-color: hsl(184, 100%, 22%);
+padding: 2.5em 3em;
+}
+.colum-3{
+background-color: hsl(179, 100%, 13%);
+padding:2.5em 3em;
+border-radius: 0 0 0.6em 0.6em;
+}
+.container .img-1{
+margin-bottom: 1.2em;
+}
+a .btn {
+    border: 1px;
+    border-radius: 1.5em;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-weight: 600;
+}
+.btn1 .btn{
+    color: hsl(31, 77%, 52%);
+    
+}
+.btn2 .btn{
+    color: hsl(184, 100%, 22%);
+}
+.btn3 .btn{
+    color: hsl(179, 100%, 13%);
+}
+ .btn1 .btn:hover{
+background-color: hsl(31, 77%, 52%);
+color: hsl(0, 0%, 95%);
+}
+.btn2 .btn:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+.btn3 .btn:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
+/*------------------------------------------------------*/
+@media (min-width:786px){
+    body{
+        margin: 0 2em;
+        min-height:calc(100vh - 0.1px);
+    }
+    .container{
+        max-width: 850px;
+        
+    }
+    .main-wrapper{
+        display: flex;
+    }
+    .container p{
+        
+        margin-bottom: 5rem;
+    }
+    .colum-1{
+        
+        border-radius: 0.6em 0 0 0.6em;
+    }
+   
+    .colum-3{
+        border-radius: 0 0.6em 0.6em 0;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
